@@ -1,90 +1,89 @@
 <!DOCTYPE html>
 <html lang="kr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Active Pal - chats</title>
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
 
-  <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fa-solid fa-wifi"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Active Pal - chats</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fa-solid fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>11%</span>
+      <i class="fa-solid fa-battery-quarter fa-2x"></i>
+      <i class="fa-solid fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="screen-header">
+    <h1 class="screen-header__title">Find</h1>
+    <div class="screen-header__icons">
+      <span><i class="fa-solid fa-magnifying-glass"></i></span>
+      <span>
+        <div class="nav__notification-c"></div>
+        <i class="fa-solid fa-gear"></i>
+      </span>
+    </div>
+  </header>
+
+  <main class="main-screen">
+    <div class="find-icons">
+      <div class="find-icons__icon">
+        <i class="fa-solid fa-qrcode fa-4x"></i><br />
+        <span>QR Code</span>
       </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
+      <div class="find-icons__icon">
+        <i class="fa-solid fa-address-book fa-4x"></i><br />
+        <span>Add by Contacts</span>
       </div>
-      <div class="status-bar__column">
-        <span>11%</span>
-        <i class="fa-solid fa-battery-quarter fa-2x"></i>
-        <i class="fa-solid fa-bolt"></i>
+      <div class="find-icons__icon">
+        <i class="fa-solid fa-passport fa-4x"></i><br />
+        <span>Add by ID</span>
+      </div>
+      <div class="find-icons__icon">
+        <i class="fa-solid fa-inbox fa-4x"></i><br />
+        <span>Invite</span>
       </div>
     </div>
+    <div class="recommended-friends">
+      <h6 class="recommended-friends__title">Recommended Friends</h6>
+      <span>You have no recooended friends.</span>
+    </div>
+  </main>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
-      <div class="screen-header__icons">
-        <span><i class="fa-solid fa-magnifying-glass"></i></span>
-        <span
-          ><div class="nav__notification-c"></div>
-          <i class="fa-solid fa-gear"></i
-        ></span>
-      </div>
-    </header>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="dashboard.html">
+          <i class="fa-solid fa-table-columns fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chat.html">
+          <span class="nav__notification-a badge">1</span>
+          <i class="fa-regular fa-comment fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <div class="nav__notification-b"></div>
+          <i class="fa-solid fa-ellipsis fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
 
-    <main class="main-screen">
-      <div class="find-icons">
-        <div class="find-icons__icon">
-          <i class="fa-solid fa-qrcode fa-4x"></i><br />
-          <span>QR Code</span>
-        </div>
-        <div class="find-icons__icon">
-          <i class="fa-solid fa-address-book fa-4x"></i><br />
-          <span>Add by Contacts</span>
-        </div>
-        <div class="find-icons__icon">
-          <i class="fa-solid fa-passport fa-4x"></i><br />
-          <span>Add by ID</span>
-        </div>
-        <div class="find-icons__icon">
-          <i class="fa-solid fa-inbox fa-4x"></i><br />
-          <span>Invite</span>
-        </div>
-      </div>
-    </main>
+  <script src="https://kit.fontawesome.com/037897a61e.js" crossorigin="anonymous"></script>
+</body>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="dashboard.html">
-            <i class="fa-solid fa-table-columns fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chat.html">
-            <span class="nav__notification-a badge">1</span>
-            <i class="fa-regular fa-comment fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <div class="nav__notification-b"></div>
-            <i class="fa-solid fa-ellipsis fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <script
-      src="https://kit.fontawesome.com/037897a61e.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>

@@ -1,5 +1,7 @@
 .user-component {
+    display: flex;
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 .user-component,

@@ -36,16 +36,3 @@
     left: 28px;
     bottom: 28px;
 }
-
-.nav__notification-c {
-    background-color: tomato;
-    width: 5px;
-    height: 5px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position:absolute;
-    right: 5px;
-    top: 5px;
-}

@@ -1,7 +1,6 @@
 .user-component {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
 }
 
 .user-component,
@@ -53,4 +52,14 @@
 .user-component__time {
     margin-bottom: 10px;
     display: block;
+}
+
+.use-component__sumbit {
+    display: flex;
+    align-items: center;
+}
+
+.use-component__sumbit i {
+    color: tomato;
+    margin-left: 5px;
 }

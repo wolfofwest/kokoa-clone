@@ -1,137 +1,156 @@
 <!DOCTYPE html>
 <html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Active Pal - chats</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to Active Pal - chats</title>
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-quarter fa-2x"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
 
-<body>
-  <div class="status-bar">
-    <div class="status-bar__column">
-      <span>No Service</span>
-      <i class="fa-solid fa-wifi"></i>
-    </div>
-    <div class="status-bar__column">
-      <span>18:43</span>
-    </div>
-    <div class="status-bar__column">
-      <span>11%</span>
-      <i class="fa-solid fa-battery-quarter fa-2x"></i>
-      <i class="fa-solid fa-bolt"></i>
-    </div>
-  </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <div class="screen-header__setting">
+          <div class="screen-header__badge"></div>
+          <a href="settings.html"><i class="fa-solid fa-gear"></i></a>
+        </div>
+      </div>
+    </header>
 
-  <header class="screen-header">
-    <h1 class="screen-header__title">Find</h1>
-    <div class="screen-header__icons">
-      <span><i class="fa-solid fa-magnifying-glass"></i></span>
-      <div class="screen-header__setting">
-        <div class="screen-header__badge"></div>
-        <i class="fa-solid fa-gear"></i>
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-qrcode fa-4x"></i><br />
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-address-book fa-4x"></i><br />
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-passport fa-4x"></i><br />
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-inbox fa-4x"></i><br />
+          <span>Invite</span>
+        </div>
       </div>
-    </div>
-  </header>
-
-  <main class="main-screen">
-    <div class="icon-row">
-      <div class="icon-row__icon">
-        <i class="fa-solid fa-qrcode fa-4x"></i><br />
-        <span>QR Code</span>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recooended friends.</span>
       </div>
-      <div class="icon-row__icon">
-        <i class="fa-solid fa-address-book fa-4x"></i><br />
-        <span>Add by Contacts</span>
-      </div>
-      <div class="icon-row__icon">
-        <i class="fa-solid fa-passport fa-4x"></i><br />
-        <span>Add by ID</span>
-      </div>
-      <div class="icon-row__icon">
-        <i class="fa-solid fa-inbox fa-4x"></i><br />
-        <span>Invite</span>
-      </div>
-    </div>
-    <div class="recommended-friends">
-      <h6 class="recommended-friends__title">Recommended Friends</h6>
-      <span>You have no recooended friends.</span>
-    </div>
-    <div class="open-chat">
-      <div class="open-chat__header">
-        <h4>Open chat</h4>
-        <span>Go to Openchat home <i class="fa-solid fa-chevron-right fa-2xs"></i></span>
-      </div>
-      <div class="open-post">
-        <div class="open-post__column">
-          <h5 class="open-post__title">#BTS</h5>
-          <h6 class="open-post__hashtags">#bts#ARMY#FRIENDS</h6>
-          <div class="open-post__members">
-            <img src="https://i.pinimg.com/736x/d5/7a/a6/d57aa6f59fe4ad8594d555b820bf68f6.jpg" />
-            <span class="open-post__member-count">802 members</span>
-            <div class="divider">
-              <span class="open-post__member-status">Active</span>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open chat</h4>
+          <span
+            >Go to Openchat home <i class="fa-solid fa-chevron-right fa-2xs"></i
+          ></span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <h6 class="open-post__hashtags">#bts#ARMY#FRIENDS</h6>
+            <div class="open-post__members">
+              <img
+                src="https://i.pinimg.com/736x/d5/7a/a6/d57aa6f59fe4ad8594d555b820bf68f6.jpg"
+              />
+              <span class="open-post__member-count">802 members</span>
+              <div class="divider">
+                <span class="open-post__member-status">Active</span>
+              </div>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://i.pinimg.com/736x/32/5c/ff/325cff33a4ed1d703fe740f796ee33ed.jpg"
+              />
+              <div class="open-post__heartcount">
+                <i class="fa-solid fa-heart fa-xs"></i>
+                <span>324</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="open-post__column">
-          <div class="open-post__photo">
-            <img src="https://i.pinimg.com/736x/32/5c/ff/325cff33a4ed1d703fe740f796ee33ed.jpg" />
-            <div class="open-post__heartcount"><i class="fa-solid fa-heart fa-xs"></i>
-              <span>324</span>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">Bts Gang~</h5>
+            <h6 class="open-post__hashtags">
+              #englishonly #ipurpleyou #jimin #teatanam
+            </h6>
+            <div class="open-post__members">
+              <img
+                src="https://i.pinimg.com/736x/d5/7a/a6/d57aa6f59fe4ad8594d555b820bf68f6.jpg"
+              />
+              <span class="open-post__member-count">299 members</span>
+              <div class="divider">
+                <span class="open-post__member-status">Active</span>
+              </div>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img
+                src="https://i.pinimg.com/736x/f8/9d/46/f89d46aa321f5866ff1c04042481acae.jpg"
+              />
+              <div class="open-post__heartcount">
+                <i class="fa-solid fa-heart fa-xs"></i>
+                <span>213</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="open-post">
-        <div class="open-post__column">
-          <h5 class="open-post__title">Bts Gang~</h5>
-          <h6 class="open-post__hashtags">#englishonly #ipurpleyou #jimin #teatanam</h6>
-          <div class="open-post__members">
-            <img src="https://i.pinimg.com/736x/d5/7a/a6/d57aa6f59fe4ad8594d555b820bf68f6.jpg" />
-            <span class="open-post__member-count">299 members</span>
-            <div class="divider">
-              <span class="open-post__member-status">Active</span>
-            </div>
-          </div>
-        </div>
-        <div class="open-post__column">
-          <div class="open-post__photo">
-            <img src="https://i.pinimg.com/736x/f8/9d/46/f89d46aa321f5866ff1c04042481acae.jpg" />
-            <div class="open-post__heartcount"><i class="fa-solid fa-heart fa-xs"></i>
-              <span>213</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
+    </main>
 
-  <nav class="nav">
-    <ul class="nav__list">
-      <li class="nav__btn">
-        <a class="nav__link" href="dashboard.html">
-          <i class="fa-solid fa-table-columns fa-2x"></i></a>
-      </li>
-      <li class="nav__btn">
-        <a class="nav__link" href="chat.html">
-          <span class="nav__notification-a badge">1</span>
-          <i class="fa-regular fa-comment fa-2x"></i></a>
-      </li>
-      <li class="nav__btn">
-        <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
-      </li>
-      <li class="nav__btn">
-        <a class="nav__link" href="more.html">
-          <div class="nav__notification-b"></div>
-          <i class="fa-solid fa-ellipsis fa-2x"></i>
-        </a>
-      </li>
-    </ul>
-  </nav>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="dashboard.html">
+            <i class="fa-solid fa-table-columns fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chat.html">
+            <span class="nav__notification-a badge">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__notification-b"></div>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
 
-  <script src="https://kit.fontawesome.com/037897a61e.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/037897a61e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
